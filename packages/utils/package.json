@@ -1,6 +1,6 @@
 {
   "name": "@wilber-cli/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "wilber-cli utils",
   "author": "WilberJiang <197463061@qq.com>",
   "homepage": "https://github.com/WilberJiang/wilber-cli#readme",
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/WilberJiang/wilber-cli/issues"
   },
-  "publishConfig":{
-    "access":"public"
+  "publishConfig": {
+    "access": "public"
   }
 }

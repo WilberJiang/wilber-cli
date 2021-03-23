@@ -1,6 +1,6 @@
 {
   "name": "@wilber-cli/core",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "wilber-cli core",
   "author": "WilberJiang <197463061@qq.com>",
   "homepage": "https://github.com/WilberJiang/wilber-cli#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/WilberJiang/wilber-cli/issues"
   },
   "gitHead": "d1f03a7438b034164914e7ca5080223ad2ce50d8",
-  "publishConfig":{
-    "access":"public"
+  "publishConfig": {
+    "access": "public"
   }
 }
