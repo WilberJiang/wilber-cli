@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/WilberJiang/wilber-cli/issues"
+  },
+  "publishConfig":{
+    "access":"public"
   }
 }
