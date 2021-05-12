@@ -1,0 +1,47 @@
+{
+  "name": "@wilber-cli/core",
+  "version": "1.0.3",
+  "description": "wilber-cli core",
+  "author": "WilberJiang <197463061@qq.com>",
+  "homepage": "https://github.com/WilberJiang/wilber-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "bin": {
+    "wilber-cli": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilberJiang/wilber-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/WilberJiang/wilber-cli/issues"
+  },
+  "gitHead": "d1f03a7438b034164914e7ca5080223ad2ce50d8",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@wilber-cli/exec": "file:../exec",
+    "@wilber-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@wilber-cli/init": "file:../../commands/init",
+    "@wilber-cli/log": "file:../../utils/log",
+    "colors": "^1.4.0",
+    "commander": "^7.2.0",
+    "dotenv": "^8.2.0",
+    "import-local": "^3.0.2",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.5",
+    "user-home": "^2.0.0"
+  }
+}

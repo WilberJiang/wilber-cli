@@ -1,14 +1,11 @@
 {
-  "name": "@wilber-cli/core",
+  "name": "@wilber-cli/format-path",
   "version": "1.0.3",
-  "description": "wilber-cli core",
+  "description": "format path",
   "author": "WilberJiang <197463061@qq.com>",
   "homepage": "https://github.com/WilberJiang/wilber-cli#readme",
   "license": "ISC",
-  "main": "lib/core.js",
-  "bin": {
-    "wilber-cli": "bin/index.js"
-  },
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -16,6 +13,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WilberJiang/wilber-cli.git"
@@ -25,9 +25,5 @@
   },
   "bugs": {
     "url": "https://github.com/WilberJiang/wilber-cli/issues"
-  },
-  "gitHead": "d1f03a7438b034164914e7ca5080223ad2ce50d8",
-  "publishConfig": {
-    "access": "public"
   }
 }
